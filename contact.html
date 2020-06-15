@@ -8,51 +8,68 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <title>Hello, world!</title>
+    <style>
+        html, body {
+          height: 100%;
+          background-color: grey;
+        }
+        footer{
+          position: absolute;
+          bottom: 0px;
+          background-color:black;
+          color: white;
+          text-align: center;
+          border-top: 7px solid teal;
+          width:100%;
+        }
+        .vl {
+          border-right: 1px solid #333;
+        }
+        form {
+          background-color: white;
+          margin: 20px;
+        }
+        nav {
+          margin-bottom: 0px;
+        }
+
+      </style>
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <a class="navbar-brand bg-info" href="#">Aidan Sweeny</a>
-      <div class="collapse navbar-collapse" id="navbarText">
-        <ul class="navbar-nav navbar-right ml-auto">
-          <li class="nav-item">
-            <a class="nav-link" href="#">About</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Portfolio</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Contact</a>
-          </li>
-        </ul>
-      </div>
-    </nav>
 
-    <div class = "wrapper">
-    <form>
-      <div class = "row">
-        <div class = "col-md-6 ml-5">
-          <h2 class = "text-info">Contact</h2>
-          <div class="form-group">
-            <label for="exampleFormControlInput1">Name</label>
-            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
-          </div>
+    <header>
+      
+    </header>
 
-          <div class="form-group">
-            <label for="exampleFormControlInput1">Email address</label>
-            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
-          </div>
+    <div class = "row">
+      <div class = "col-md-6">
+      <form>
+            <h2 class = "text-info m-4">Contact</h2>
+            <hr>
+            <div class="form-group m-4">
+              <label for="exampleFormControlInput1">Name</label>
+              <input type="email" class="rounded-0 form-control" id="exampleFormControlInput1" placeholder="Jon Smith">
+            </div>
 
-          <div class="form-group">
-            <label for="exampleFormControlTextarea1">Message</label>
-            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-          </div>
+            <div class="form-group m-4">
+              <label for="exampleFormControlInput1">Email address</label>
+              <input type="email" class="rounded-0 form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+            </div>
 
-          <button class = "bg-info">Submit</button>
-        </div>
+            <div class="form-group m-4">
+              <label for="exampleFormControlTextarea1">Message</label>
+              <textarea class="rounded-0 form-control " id="exampleFormControlTextarea1" rows="3"></textarea>
+            </div>
 
-      </div>
-    </form>
+            <button class = "m-4 rounded-0 btn btn-info">Submit</button>
+      </form>
     </div>
+    </div>
+
+      <footer>
+          <p>&copy;Copyright</p>
+      </footer>
+
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
