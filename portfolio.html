@@ -9,9 +9,84 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
     <title>Hello, world!</title>
+    <style>
+        html, body {
+          height: 100%;
+          background-color: rgb(221, 221, 221);
+        }
+        footer{
+          position: absolute;
+          bottom: 0px;
+          background-color:rgb(100, 100, 100);
+          color: white;
+          text-align: center;
+          border-top: 7px solid teal;
+          width:100%;
+        }
+        .vl {
+          border-right: 2px solid #333;
+        }
+        form {
+          background-color: white;
+          margin: 20px;
+        }
+        nav {
+          margin-bottom: 0px;
+        }
+        .tabs {
+          text-align: right;
+          width: 100%;
+          background-color: white;
+        }
+        a {
+          font-size: 20px;
+        }
+        #name {
+          background-color:  teal;
+        }
+
+        .block {
+          background-color: white;
+        }
+        @media (max-width: 500px){
+          #name {
+            text-align: center;
+          }
+          a {
+            text-align: center;
+          }
+        }
+
+      </style>
   </head>
   <body>
-    <h1>Hello, world!</h1>
+      <header>
+          <div class container>
+          <div class = "row bg-white">
+            <div class = "col-md-3 col-sm-12 text-sm-center text-xs-center">
+              <h1 id = "name">Aidan Sweeny</h1>
+            </div>
+            <div class = " block col-md-3"></div>
+            <div class  = "col-md-4 tabs col-sm-4 text-md-right text-sm-center">
+              <a href = "index.html">About</a>
+              <div class = "vl"></div>
+            </div>
+            <div class  = "col-md-1 tabs col-sm-4 text-md-right text-sm-center">
+                <a href = "portfolio.html">Portfolio</a>
+              <div class = "vl"></div>
+            </div>
+            <div class  = "col-md-1 tabs col-sm-4 text-md-right text-sm-center">
+                <a href = "contact.html">Contact</a>
+            </div>
+              
+            
+          </div>
+        </div>
+        </header>
+        
+        <footer>
+            <p>&copy;Copyright</p>
+        </footer>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
