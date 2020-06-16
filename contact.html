@@ -11,19 +11,19 @@
     <style>
         html, body {
           height: 100%;
-          background-color: grey;
+          background-color: rgb(221, 221, 221);
         }
         footer{
           position: absolute;
           bottom: 0px;
-          background-color:black;
+          background-color:rgb(100, 100, 100);
           color: white;
           text-align: center;
           border-top: 7px solid teal;
           width:100%;
         }
         .vl {
-          border-right: 1px solid #333;
+          border-right: 2px solid #333;
         }
         form {
           background-color: white;
@@ -32,13 +32,48 @@
         nav {
           margin-bottom: 0px;
         }
+        .tabs {
+          text-align: right;
+          width: 100%;
+          background-color: white;
+        }
+        h4 {
+          font-size: 20px;
+        }
+        #name {
+          background-color:  teal;
+        }
+
+        .block {
+          background-color: white;
+        }
 
       </style>
   </head>
   <body>
 
     <header>
-      
+      <div class = "container">
+      <div class = "row">
+        <div class = "col-md-3 col-sm-12 text-sm-center text-xs-center3">
+          <h1 id = "name">Aidan Sweeny</h1>
+        </div>
+        <div class = " block col-md-3"></div>
+        <div class  = "col-md-4 tabs col-sm-4 text-md-right text-sm-center">
+          <h4>About</h4>
+          <div class = "vl"></div>
+        </div>
+        <div class  = "col-md-1 tabs col-sm-4 text-md-right text-sm-center">
+          <h4>Portfolio</h4>
+          <div class = "vl"></div>
+        </div>
+        <div class  = "col-md-1 tabs col-sm-4 text-md-right text-sm-center">
+          <h4>Contact</h4>
+        </div>
+          
+        
+      </div>
+      </div>
     </header>
 
     <div class = "row">
