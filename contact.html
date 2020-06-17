@@ -14,7 +14,7 @@
           background-color: rgb(221, 221, 221);
         }
         footer{
-          position: absolute;
+          position: fixed;
           bottom: 0px;
           background-color:rgb(100, 100, 100);
           color: white;
@@ -22,26 +22,23 @@
           border-top: 7px solid rgb(70, 172, 172);
           width:100%;
         }
-        .vl {
-          border-right: 2px solid #333;
+        .tabs {
+          text-align: center;
+          width: 100%;
+          background-color: white;
         }
+
         form {
           background-color: white;
           margin: 20px;
         }
-        nav {
-          margin-bottom: 0px;
-        }
-        .tabs {
-          text-align: right;
-          width: 100%;
-          background-color: white;
-        }
+
         a {
           font-size: 20px;
         }
         #name {
           background-color:  rgb(70, 172, 172);
+          margin-bottom: 0px;
         }
 
         .block {
@@ -51,36 +48,29 @@
           #name {
             text-align: center;
           }
-          a {
-            text-align: center;
-          }
         }
 
       </style>
   </head>
   <body>
 
-    <header>
-      <div class = "row bg-white">
-        <div class = "col-md-5 col-sm-12 text-white text-sm-center text-xs-center">
-          <h1 id = "name">Aidan Sweeny</h1>
-        </div>
-        <div class = " block col-md-3"></div>
-        <div class  = "col-md-2 tabs col-sm-4 text-md-right text-sm-center">
-          <a class = "text-muted" href = "index.html">About</a>
-          <div class = "vl"></div>
-        </div>
-        <div class  = "col-md-1 tabs col-sm-4 text-md-right text-sm-center">
-            <a class = "text-muted" href = "portfolio.html">Portfolio</a>
-          <div class = "vl"></div>
-        </div>
-        <div class  = "col-md-1 tabs col-sm-4 text-md-right text-sm-center">
-            <a class = "text-muted" href = "contact.html">Contact</a>
-        </div>
-          
-        
-      </div>
-    </header>
+      <header>
+          <div class = "row bg-white">
+            <div class = "col-md-5 col-sm-12 text-white text-sm-center text-xs-center">
+              <h1 id = "name">Aidan Sweeny</h1>
+            </div>
+            <div class = " block col-md-3"></div>
+            <div class  = "col-md-2 tabs col-sm-4 text-md-right text-sm-center">
+              <a class = "text-muted " href = "index.html">About</a>
+            </div>
+            <div class  = "col-md-1 tabs col-sm-4 text-md-right text-sm-center">
+                <a class = "text-muted" href = "portfolio.html">Portfolio</a>
+            </div>
+            <div class  = "col-md-1 tabs col-sm-4 text-md-right text-sm-center">
+                <a class = "text-muted" href = "contact.html">Contact</a>
+            </div>
+          </div>
+        </header>
 
     <div class = "row">
       <div class = "col-md-6">
